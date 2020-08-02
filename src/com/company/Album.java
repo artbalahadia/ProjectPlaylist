@@ -31,7 +31,7 @@ public class Album {
         }
     }
 
-    private Song findSong(String title){
+    public Song findSong(String title){
         for(int i = 0; i < album.size(); i++){
             Song checkSong = album.get(i);
             if(checkSong.getTitle().equals(title)){
